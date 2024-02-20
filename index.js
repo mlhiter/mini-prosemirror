@@ -1,5 +1,5 @@
 const { EditorState } = require('prosemirror-state')
-const { EditorView } = require('prosemirror-view')
+// const { EditorView } = require('prosemirror-view')
 const { schema } = require('prosemirror-schema-basic')
 
 const doc = schema.node('doc', null, [
